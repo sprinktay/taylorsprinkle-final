@@ -165,3 +165,4 @@ In addition to data in the `src/njk/_data` folder, there is another place you ca
 - I'd like to add a Nunjucks Markdown package of some sort to allow adding/editing of basic text in Markdown, perhaps with front-matter. Would prefer to hook up through Google Docs. See [Issue 17](https://github.com/utdata/icj-project-template/issues/17).
 - I'd like to loop through data to create detail pages.
 # taylorsprinkle-final
+# taylorsprinkle-final
