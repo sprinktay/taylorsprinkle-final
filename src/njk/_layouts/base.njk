@@ -8,11 +8,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/_nav.css">
+    <link rel="stylesheet" href="css/_jumbotron.css">
+
 </head>
 <body>
-  {% include "_partials/nav.njk" %}
+<div class="justify content center">
+  {% include "_partials/jumbotron.njk" %}
 
   {% block content %}{% endblock %}
+
+  {# {% include "_partials/namecards.njk" %} #}
+
+  {% include "_partials/nav.njk" %}
 
   {% include "_partials/footer.njk" %}
 
@@ -20,5 +28,7 @@
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
+</div>
 </body>
 </html>
+
