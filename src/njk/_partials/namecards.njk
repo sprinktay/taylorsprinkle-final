@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row justify-content-center">
   {% for member in data.members %}
   <div class="col">
     <div class="card text-center">
       <img class="card-img center cardimage" src="img/{{member.image}}" alt="Card image cap">
        <div class="card-body text-center">
        <a href="{{ member.slug }}.html" class="card-title">{{member.name}}</a>
-       <p class="card-text">{{member.name}}<br>{{member.name}}<br>{{member.name}}</p>
+       <p class="card-text">{{member.tenure}}<br>{{member.instruments}}<br>{{member.hometown }}</p>
        </div>
     </div>
   </div>

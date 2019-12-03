@@ -34,20 +34,43 @@ body {
 
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+
+.tour {
+  color:  rgb(240, 109, 131);
+  margin-top: 20px;
+}
+
+
 h3 {
   font-family: 'Sarpanch', sans-serif;
   font-size: 16px;
+  color: lightblue;
 }
 
 h4 {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
+  color: lightblue;
+  margin-top: 10px;
 }
 
 p {
-  color: yellow;
+  // color: yellow;
+  background: repeating-linear-gradient(lightblue, yellow, lightblue);
+  background-clip: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  color:lightblue;
 }
 
 // #objecttborder {
@@ -59,3 +82,20 @@ footer {
   margin-top: 60px;
   color: rgb(240, 109, 131);
 }
+
+img {
+  border-radius: 8px;
+  border-width: 3px;
+  border: 2px solid rgb(240, 109, 131);
+}
+
+.introtext {
+  margin-top: 20px;
+}
+
+h6 {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 16px;
+  color: lightblue;
+}
+

@@ -9,6 +9,8 @@
   border-color: rgb(240, 109, 131);
   // max-height: 100px;
   // max-width: 100%;
+  margin-bottom: -30px;
+  margin-top: -50px;
 }
 
 .jumbotron h1 {
@@ -20,14 +22,28 @@
   // border-color: rgb(240, 109, 131);
 }
 
-.jimg {
-  max-height: 80%;
+.image {
+  border-radius: 20px;
 }
 
-@media (min-width: 576px) {  
-
-.introtext {
-  margin-top: -200px;
+#jumbo2 {
+  margin-top: 60px;
+  margin-bottom: 80px;
+  background-size: 40%;
+  max-width: 90%;
+  transform: translatex(6%);
+  max-height: 300px;
+  padding-top: 100px;
+  border-radius: 20px;
+  background-position-y: -60px;
+  background-position-x: -160px;
 }
- 
+
+#jumbo2 h1 {
+  background: linear-gradient(rgb(240, 109, 131),lightblue);
+  background-clip: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  text-align: center;
 }
