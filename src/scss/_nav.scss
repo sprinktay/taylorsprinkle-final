@@ -1,6 +1,23 @@
 /* nav */
 
-.navbar {
-  margin-bottom: 0px;
-  font-display: yellow;
+.nav {
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
+
+.nav-link {
+  color: rgb(240, 109, 131);
+  display: inline;
+}
+
+@media (max-width: 0px) {  
+
+  .nav {
+    margin-top: 10px;
+    position: absolute;
+    left: 100%;
+    transform: translatex(-100%);
+  } 
+  }

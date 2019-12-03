@@ -1,11 +1,28 @@
 /* card */
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Roboto&display=swap');
+
 
 .card {
   font-family: 'Arial Narrow Bold', sans-serif;
   font-display: yellow;
-  border-color: red;
+  border-color: rgb(240, 109, 131);
+  border-width: 3px;
   text-align: center;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 300px;
+  max-height: 500px;
 }
-.nav-link {
-  color: red;;
+.card-title {
+  font-family: 'Faster One', cursive;
+  font-size: 15px;
+}
+
+.cardimage {
+  max-width: 300px;
+  max-height: 300px;
+  position: center;
+  border-color: rgb(240, 109, 131);
+  border-width: 2px;
 }

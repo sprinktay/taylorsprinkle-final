@@ -2,47 +2,45 @@
   "members": [
     {
       "slug": "laura",
-      "name": "Laura",
+      "name": "laura les",
       "instruments": "Vocals, keyboards",
       "tenure": "(1970–1991; his death)",
       "birthplace": "Stone Town, Zanzibar",
       "birthdate": "9/5/1946",
-      "image": "kraken01.jpg",
-      "imagebw": "freddie-mercury-bw.jpg",
+      "image": "laurales.jpg",
       "text": "<p>Farrokh Bulsara (5 September 1946 – 24 November 1991), known professionally as Freddie Mercury, was a British singer-songwriter and record producer, best known as the lead vocalist of the rock band Queen. He was known for his flamboyant stage persona and four-octave vocal range. Mercury wrote numerous hits for Queen, including \"Bohemian Rhapsody\", \"Killer Queen\", \"Somebody to Love\", \"Don't Stop Me Now\", \"Crazy Little Thing Called Love\", and \"We Are the Champions\". He led a solo career while performing with Queen, and occasionally served as a producer and guest musician for other artists.</p>\n<p>Mercury was born of Parsi descent on Zanzibar, and grew up there and in India before moving with his family to Middlesex, England, in his late teens. He formed Queen in 1970 with guitarist Brian May and drummer Roger Taylor. Mercury died in 1991 at age 45 due to complications from AIDS, having confirmed the day before his death that he had contracted the disease.</p>\n<p>In 1992, Mercury was posthumously awarded the Brit Award for Outstanding Contribution to British Music, and a tribute concert was held at Wembley Stadium, London. As a member of Queen, he was inducted into the Rock and Roll Hall of Fame in 2001, the Songwriters Hall of Fame in 2003, and the UK Music Hall of Fame in 2004. In 2002, he was placed number 58 in the BBC's 2002 poll of the 100 Greatest Britons. He is consistently voted one of the greatest singers in the history of popular music.</p>\n<p>- Source: <a href=\"https://en.wikipedia.org/wiki/Freddie_Mercury\">Wikipedia</a></p>"
     },
     {
       "slug": "dylan",
-      "name": "Dylan",
+      "name": "dylan brady",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "Hampton, England",
       "birthdate": "7/19/1947",
-      "image": "kraken02.jpg",
-      "imagebw": "brian-may-bw.jpg",
+      "image": "dylanbrady.jpg",
       "text": "<p>Brian Harold May, CBE (born 19 July 1947) is an English musician, singer, songwriter and photographer. He is best known as the lead guitarist of the rock band Queen. In 2001, he was inducted into the Rock and Roll Hall of Fame as one of the band's members; and in 2018, he received the Grammy Lifetime Achievement Award which recognises \"the most distinctive recordings in music history\". He uses a home-built electric guitar called the Red Special. His compositions for the band include \"We Will Rock You\", \"Tie Your Mother Down\", \"I Want It All\", \"Fat Bottomed Girls\", \"Flash\", \"Hammer to Fall\", \"Save Me\", \"Who Wants to Live Forever\", and \"The Show Must Go On\".</p>\n<p>May was a co-founder of Queen with lead singer Freddie Mercury and drummer Roger Taylor, having previously performed with Taylor in the band Smile, which he had joined while he was at university. Within five years of their formation in 1970 and the recruitment of bass player John Deacon completing the lineup, Queen had become one of the biggest rock bands in the world with the success of the album A Night at the Opera and its song \"Bohemian Rhapsody\". From the mid-1970s until the early 1990s, Queen were an almost constant presence in the UK charts and played some of the biggest venues in the world, most notably giving an acclaimed performance at Live Aid in 1985. As a member of Queen, May became regarded as a virtuoso musician and he was identified with a distinctive sound created through his layered guitar work.</p>\n<p>Following the death of Mercury in 1991, Queen were put on hiatus for several years but were eventually reconvened by May and Taylor for further performances featuring other vocalists. In 2005, a Planet Rock poll saw May voted the 7th greatest guitarist of all time. He was ranked at No. 26 on Rolling Stone magazine's list of the \"100 Greatest Guitarists of All Time\". In 2012, May was ranked the 2nd greatest guitarist of all time by a Guitar World magazine readers poll.</p>\n<p>- Source: <a href=\"https://en.wikipedia.org/wiki/Brian_May\">Wikipedia</a></p>"
     }
   ],
   "discography": [
     {
-      "title": "Queen",
-      "year": 1973,
-      "image": "Queen_Queen.png"
+      "title": "725 sticky (Injury Reserve Remix)",
+      "year": 2019,
+      "image": "gecsa1.jpg"
     },
     {
-      "title": "Queen II",
-      "year": 1974,
-      "image": "Queen_Queen_II.jpg"
+      "title": "money machine (A.G. Cook Remix)",
+      "year": 2019,
+      "image": "gecsa2.jpg"
     },
     {
-      "title": "Sheer Heart Attack",
-      "year": 1974,
-      "image": "Queen_Sheer_Heart_Attack.png"
+      "title": "1000 gecs",
+      "year": 2019,
+      "image": "gecsa3.jpg"
     },
     {
-      "title": "A Night at the Opera",
-      "year": 1975,
-      "image": "Queen_A_Night_At_The_Opera.png"
+      "title": "100 gecs",
+      "year": 2017,
+      "image": "gecsa4.jpg"
     }
   ]
 }

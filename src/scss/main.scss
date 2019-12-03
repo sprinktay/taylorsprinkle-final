@@ -1,7 +1,7 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
-@import "https://fonts.googleapis.com/css?family=Faster+One|Open+Sans&display=swap";
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Libre+Barcode+39|Roboto|Sarpanch:700&display=swap');
 
 /* bootstrap */
 // Option A: Include all of Bootstrap
@@ -21,19 +21,41 @@
 @import "nav";
 @import "jumbotron";
 @import "namecards";
+@import "mediaobject";
 
 body {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-display: pink;
+  background-color: rgb(3, 3, 3);
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(240, 109, 131);
+  font-weight: bold;
+  // scroll-padding-left: 20px;
 }
 //$body-bg: black;
 
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
-.h1 {
-  font-family: 'Faster One', cursive;
+h3 {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 16px;
 }
-.footer {
-  color: pink;
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+}
+
+p {
+  color: yellow;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+}
+
+// #objecttborder {
+  // border-color: red;
+  // border-width: 3px;
+// }
+
+footer {
+  margin-top: 60px;
+  color: rgb(240, 109, 131);
 }

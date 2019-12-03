@@ -1,13 +1,17 @@
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
+ {% include "_partials/jumbotron2.njk" %}
 <article class="container">
   <div class="row">
     <div class="col-sm-4 left-rail">
         <img class="img-fluid" src="img/{{ member.image }}" alt="">
+        <p>{{member.tenure }}</p>
     </div>
     <div class="col-sm-8">
         <h1>{{member.name}}</h1>
+        <p>{{member.text | safe }}</p>
+        {# build from here #}
     </div>
   </div>
 </article>

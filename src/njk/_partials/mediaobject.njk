@@ -1,9 +1,12 @@
  <div class="row">
        {% for disc in data.discography %}
-          <div class="col-lg-3 col-6 text-center">
-          <img class="img-fluid" src="img/gecs.jpg" alt="album">
+          <div class="col-lg-3 col-6 text-center albums">
+          <div id="objecttborder">
+          <img class="img-fluid" src="img/{{disc.image}}" alt="album">
+           </div>
           <h3>{{ disc.title }}</h3>
           <h4>{{ disc.year}}</h4>
+
           </div>
         {% endfor %}
   </div>
