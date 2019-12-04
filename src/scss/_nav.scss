@@ -3,8 +3,8 @@
 .nav {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -50px;
+  margin-right: -50px;
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
@@ -15,7 +15,7 @@
   display: inline;
 }
 
-@media (max-width: 300px) {  
+@media (max-width: 600px;) {  
 
   .nav {
        align-content: center;
