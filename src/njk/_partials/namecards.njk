@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
   {% for member in data.members %}
   <div class="col">
-    <div class="card text-center">
+    <div class="card text-center module-border-wrap">
       <img class="card-img center cardimage" src="img/{{member.image}}" alt="Card image cap">
        <div class="card-body text-center">
        <a href="{{ member.slug }}.html" class="card-title">{{member.name}}</a>

@@ -4,17 +4,18 @@
  {% include "_partials/jumbotron2.njk" %}
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
-      <a  href="https://open.spotify.com/artist/6PfSUFtkMVoDkx4MQkzOi3?si=i2ZV8bX-TU6wanQ_0EI-dQ">
-        <img class="img-fluid" src="img/{{ member.image }}" alt="none">
-      </a>
-         <h4>{{member.hometown }}</h4> 
-         <h4>{{member.instruments}}</h4>
-    </div>
     <div class="col-sm-8">
-        <h1>{{member.name}}</h1>
+        <h2>{{member.name}}</h2>
         <p>{{member.text | safe }}</p>
         {# build from here #}
+    </div>
+        <div class="col-sm-4 left-rail">
+      <a  href="https://open.spotify.com/artist/6PfSUFtkMVoDkx4MQkzOi3?si=i2ZV8bX-TU6wanQ_0EI-dQ">
+        <img class="img-fluid imgspace" src="img/{{ member.image }}" alt="none">
+      </a>
+         <h4>{{member.pictured }}</h4> 
+         <h4>{{member.hometown }}</h4> 
+         <h4>{{member.instruments}}</h4>
     </div>
   </div>
 </article>

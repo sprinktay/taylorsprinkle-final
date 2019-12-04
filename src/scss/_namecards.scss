@@ -4,19 +4,19 @@
 
 .card {
   font-family: 'Roboto Mono', monospace;
-  border-color: rgb(240, 109, 131);
   border-radius: 8px;
   border-width: 2px;
+  border-color: rgb(240, 109, 131);
   text-align: center;
-  background-color: black;
+  background: black;
   max-width: 300px;
   max-height: 500px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-
+  margin-top: 40px;
+  margin-bottom: 20px;
   left: 50%;
   transform: translatex(-50%);
 }
+
 .card-title {
   font-family: 'Sarpanch', sans-serif;
   font-size: 16px;

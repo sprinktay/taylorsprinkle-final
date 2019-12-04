@@ -35,9 +35,10 @@ body {
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
-.tour {
-  color:  rgb(240, 109, 131);
-  margin-top: 20px;
+h2 {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 40px;
+  color: lightblue;
 }
 
 
@@ -49,9 +50,13 @@ h3 {
 
 h4 {
   font-family: 'Roboto Mono', monospace;
-  font-size: 16px;
+  font-size: 14px;
   color: lightblue;
-  margin-top: 10px;
+}
+
+.imgspace {
+  margin-bottom: 20px;
+  max-height: 400px;
 }
 
 p {
@@ -78,10 +83,13 @@ a:hover {
   // border-width: 3px;
 // }
 
-footer {
-  margin-top: 60px;
-  color: rgb(240, 109, 131);
+.tour {
+  margin-top: 20px;
+  color: lightblue;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 img {
   border-radius: 8px;
@@ -94,8 +102,14 @@ img {
 }
 
 h6 {
-  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   color: lightblue;
+  line-height: 40px;
+}
+
+footer {
+  margin-top: 60px;
+  color: rgb(240, 109, 131);
 }
 
