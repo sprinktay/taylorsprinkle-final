@@ -3,8 +3,8 @@
 .nav {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: -50px;
-  margin-right: -50px;
+  // margin-left: -50px;
+  // margin-right: -50px;
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
@@ -15,12 +15,18 @@
   display: inline;
 }
 
-@media (max-width: 600px;) {  
-
-  .nav {
-       align-content: center;
-       margin-left: auto;
-       margin-right: auto;
-       position: relative;
+@media (max-width: 768px) { 
+  .nav li {
+    float: none;
+    display: inline-block;
+    width: 25%;
+    justify-content: center;
   }
-}
+  .nav {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+ }
+
+   // left: 50%;
+  // transform: translatex(-50%);
