@@ -1,5 +1,8 @@
 # ICJ Project Template
 
+
+This is the final project for Intro to Coding. It's a fanpage for 100 gecs, the band.
+
 A Node-based template system with a Gulp workflow set up for Github Pages publishing.
 
 Features:
