@@ -22,12 +22,14 @@
 @import "jumbotron";
 @import "namecards";
 @import "mediaobject";
+@import "tour";
 
 body {
   background-color: rgb(3, 3, 3);
   font-family: 'Roboto Mono', monospace;
   color: rgb(240, 109, 131);
   font-weight: bold;
+  background-clip: black;
   // scroll-padding-left: 20px;
 }
 //$body-bg: black;
@@ -71,24 +73,21 @@ p {
 
 a {
   color: yellow;
+  background-clip: black;
 }
 
 a:hover {
   text-decoration: none;
   color:lightblue;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  background-clip: black;
 }
 
 // #objecttborder {
   // border-color: red;
   // border-width: 3px;
 // }
-
-.tour {
-  margin-top: 20px;
-  color: lightblue;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 
 img {
@@ -104,15 +103,10 @@ img {
   margin-top: 20px;
 }
 
-h6 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 16px;
-  color: lightblue;
-  line-height: 40px;
-}
-
 footer {
   margin-top: 60px;
   color: rgb(240, 109, 131);
 }
+
+
 

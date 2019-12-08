@@ -1,10 +1,68 @@
-{# table then start loop then call info #}
+{# <!DOCTYPE html> 
+<html lang="en">
 {% extends '_layouts/base.njk' %}
+
+<body>
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>City</th>
+        <th>Venue</th>
+      </tr>
+    </thead>
+
+{% for dayss in data.tourdates %}
+    <div class="text-center">
+      <tbody>
+      <tr>
+        <td>{{ dayss.date }}</td>
+        <td>{{ dayss.city }}</td>
+        <td>{{ dayss.venue }}</td>
+      </tr>
+      </tbody>
+    </div>
+{% endfor %}
+  </table>
+  </div>
+
+  </body>
+</html>
+
+{#  
 {% block content %}
 <div class="tour text-center">
 
-<h6>11/24 - Boston, MA - Agganis Arena <br> 11/25 - Washington, DC - The Anthem <br> 11/07 - Berkeley, CA - Cornerstone <br> 11/08 - Palo Alto, CA - Frost <br> 11/09 - Santa Ana, CA - La Santa  <br> 11/13 - San Antonio, TX - Aztec Theatre  <br> 11/14 - Dallas, TX - Bomb Factory  <br> 11/20 - Atlanta, GA - Coca-Cola Roxy  <br> 11/26 - New York, NY @ Elsewhere <br> 11/27 - Philadelphia, PA - The Fillmore  <br> 11/29 - Toronto, ON - Coca-Cola Coliseum  <br> 12/03 - Minneapolis, MN - The Armory <br> 12/04 - Milwaukee, WI - The Eagles Ballroom  <br> 12/05 - Chicago, IL - Lincoln Hall  <br> 12/06 - Chicago, IL - Aragon Ballroom  <br> 12/09 - Denver, CO - Mission Ballroom <br> 12/13 - Los Angeles, CA - Hollywood Palladium (early show) <br> 12/13 - Los Angeles, CA - Hollywood Palladium (late show) <br> 12/14 - Los Angeles, CA - Moroccan Lounge</h6>
-
-</div>
-
+<h6>11/24 - Boston, MA - Agganis Arena <br> 11/25 - Washington, DC - The Anthem <br> 11/07 - Berkeley, CA - Cornerstone <br> 11/08 - Palo Alto, CA - Frost <br> 11/09 - Santa Ana, CA - La Santa  <br> 11/13 - San Antonio, TX - Aztec Theatre  <br> 11/14 - Dallas, TX - Bomb Factory  <br> 11/20 - Atlanta, GA - Coca-Cola Roxy  <br> 11/26 - New York, NY @ Elsewhere <br> 11/27 - Philadelphia, PA - The Fillmore  <br> 11/29 - Toronto, ON - Coca-Cola Coliseum  <br> 12/03 - Minneapolis, MN - The Armory <br> 12/04 - Milwaukee, WI - The Eagles Ballroom  <br> 12/05 - Chicago, IL - Lincoln Hall  <br> 12/06 - Chicago, IL - Aragon Ballroom  <br> 12/09 - Denver, CO - Mission Ballroom <br> 12/13 - Los Angeles, CA - Hollywood Palladium (early show) <br> 12/13 - Los Angeles, CA - Hollywood Palladium (late show) <br> 12/14 - Los Angeles, CA - Moroccan Lounge</h6> 
 {% endblock %}
+</div>#}
+{% extends '_layouts/base.njk' %}
+{% block content %}
+<article class="container justify-content-center">
+  <table class="table table-hover">
+  <div class="text-center">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>City</th>
+        <th>Venue</th>
+      </tr>
+    </thead>
+      <tbody>
+{% for dayss in tour.tourdates %}
+    
+      <tr>
+        <td>{{ dayss.date }}</td>
+        <td>{{ dayss.city }}</td>
+        <td>{{ dayss.venue }}</td>
+      </tr>
+{% endfor %}
+</tbody>
+    </div>
+  </table>
+</article>
+{% endblock %}
+
+
+

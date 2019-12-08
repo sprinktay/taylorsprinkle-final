@@ -1,0 +1,65 @@
+{
+  "tourdates": [
+    {
+      "date": "11/24",
+      "city": "Boston, MA",
+      "venue": "Agganis Arena"
+    },
+    {
+      "date": "11/25",
+      "city": "Washington, DC ",
+      "venue": "The Anthem"
+    },
+    {
+      "date": "11/26 ",
+      "city": "New York, NY",
+      "venue": "Elsewhere"
+    },
+    {
+      "date": "11/27",
+      "city": "Philadelphia, PA",
+      "venue": "The Fillmore"
+    },
+    {
+      "date": "11/29",
+      "city": "Toronto, ON",
+      "venue": "Coca-Cola Coliseum"
+    },
+    {
+      "date": "12/03",
+      "city": "Minneapolis, MN",
+      "venue": "The Armory"
+    },
+    {
+      "date": "12/04",
+      "city": "Milwaukee, WI",
+      "venue": "The Eagles Ballroom"
+    },
+    {
+      "date": "12/05",
+      "city": "Chicago, IL",
+      "venue": "Lincoln Hall"
+    },
+    {
+      "date": "12/06",
+      "city": "Chicago, IL",
+      "venue": "Aragon Ballroom"
+    },
+    {
+      "date": "12/09 ",
+      "city": "Denver, CO",
+      "venue": "Mission Ballroom"
+    },
+    {
+      "date": "12/13",
+      "city": "Los Angeles, CA",
+      "venue": "Hollywood Palladium"
+    },
+    {
+      "date": "12/14",
+      "city": "Los Angeles, CA",
+      "venue": "Moroccan Lounge"
+    }
+  ]
+  }
+

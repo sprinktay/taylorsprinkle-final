@@ -1,6 +1,11 @@
 /* nav */
-
+.nav-link {
+  color: rgb(240, 109, 131);
+  font-family: 'Sarpanch', sans-serif;
+}
+@media (min-width: 768px) {
 .nav {
+  -webkit-touch-callout: none;
   margin-top: 20px;
   margin-bottom: 20px;
   // margin-left: -50px;
@@ -8,23 +13,39 @@
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+  background: black;
 }
 
 .nav-link {
   color: rgb(240, 109, 131);
   display: inline;
+  font-size: 16px;
+}
+
 }
 
 @media (max-width: 768px) { 
-  .nav li {
-    float: none;
-    display: inline-block;
-    width: 24%;
-  }
   .nav {
     margin-top: 20px;
     margin-bottom: 60px;
+    justify-content: center;
+    position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
   }
+  .nav li {
+    background: transparent;
+    float: none;
+    display: inline-block;
+    width: 24%;
+    
+  }
+
+  .nav-link {
+    color: rgb(240, 109, 131);
+    font-size: 12px;
+  }
+  
  }
 
    // left: 50%;
