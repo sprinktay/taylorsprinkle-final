@@ -1,6 +1,6 @@
 {% extends '_layouts/base.njk' %}
 
-{% block page_title %}New index page title{% endblock %}
+{% block page_title %}100 Gecs Home{% endblock %}
 
 {% block content %}
 {% include "_partials/jumbotron.njk" %}
@@ -24,6 +24,8 @@
         <p>
         Source: <a href="https://en.wikipedia.org/wiki/100_Gecs">Wikipedia</a> 
       </p>
+  </div>
+  <div class="row"> {# fixes nav bar spacing from bottom on index page #}
   </div>
 </div>
 {% endblock %}

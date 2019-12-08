@@ -25,7 +25,8 @@
 @import "tour";
 
 body {
-  background-color: rgb(3, 3, 3);
+  background-color: #030303;
+  white-space: none;
   font-family: 'Roboto Mono', monospace;
   color: rgb(240, 109, 131);
   font-weight: bold;
@@ -79,10 +80,8 @@ a {
 a:hover {
   text-decoration: none;
   color:lightblue;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  background-clip: black;
 }
+
 
 // #objecttborder {
   // border-color: red;
@@ -102,6 +101,7 @@ img {
 .introtext {
   margin-top: 20px;
 }
+
 
 footer {
   margin-top: 60px;
